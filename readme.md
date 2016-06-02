@@ -57,4 +57,13 @@ or a ` ` if it is unoccupied, followed by an additional space.
 Important: Your program is always `X` for ease of implementation.  The managing
 program will keep track of who is X and O.  
 
+### Making a move ###
+To make a move print your move coordinates to stdout followed by a newline.
+
+### Bad Input ###
+If your program emits an illegal move (not a valid location, an occupied
+location, or a location you are not allowed to currently choose), you will be
+sent a newline in response (which you should treat as the end of the game).
+The managing program should print out appropriate insults.
+
 
